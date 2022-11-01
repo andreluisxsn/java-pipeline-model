@@ -21,11 +21,6 @@ jobs:
         java-version: "18"
         distribution: "adopt"
 
-#    - name: Configurando as variaveis de ambiente
-#      run: |
-#        chmod +x devops/configs/environments.sh
-#        source devops/configs/environments.sh
-
     - name: Build project with Maven
       run: |
         mvn clean
